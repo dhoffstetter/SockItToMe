@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42AF53422F900FA00B4B4C0 /* Foot.m in Sources */ = {isa = PBXBuildFile; fileRef = C42AF53322F900F900B4B4C0 /* Foot.m */; };
+		C42AF53822F9021800B4B4C0 /* Pattern.m in Sources */ = {isa = PBXBuildFile; fileRef = C42AF53722F9021800B4B4C0 /* Pattern.m */; };
 		C47A400422C70C0800612D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A400322C70C0800612D8D /* AppDelegate.m */; };
-		C47A400722C70C0800612D8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A400622C70C0800612D8D /* ViewController.m */; };
-		C47A400A22C70C0800612D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47A400822C70C0800612D8D /* Main.storyboard */; };
 		C47A400D22C70C0800612D8D /* SockItToMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C47A400B22C70C0800612D8D /* SockItToMe.xcdatamodeld */; };
 		C47A400F22C70C0A00612D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47A400E22C70C0A00612D8D /* Assets.xcassets */; };
 		C47A401222C70C0A00612D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47A401022C70C0A00612D8D /* LaunchScreen.storyboard */; };
 		C47A401522C70C0A00612D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A401422C70C0A00612D8D /* main.m */; };
 		C47A401F22C70C0B00612D8D /* SockItToMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A401E22C70C0B00612D8D /* SockItToMeTests.m */; };
 		C47A402A22C70C0B00612D8D /* SockItToMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A402922C70C0B00612D8D /* SockItToMeUITests.m */; };
+		C47A403922C70CB900612D8D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A403822C70CB900612D8D /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C42AF53222F900F900B4B4C0 /* Foot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foot.h; sourceTree = "<group>"; };
+		C42AF53322F900F900B4B4C0 /* Foot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foot.m; sourceTree = "<group>"; };
+		C42AF53622F9021800B4B4C0 /* Pattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pattern.h; sourceTree = "<group>"; };
+		C42AF53722F9021800B4B4C0 /* Pattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pattern.m; sourceTree = "<group>"; };
 		C47A3FFF22C70C0800612D8D /* SockItToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SockItToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47A400222C70C0800612D8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C47A400322C70C0800612D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C47A400522C70C0800612D8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C47A400622C70C0800612D8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C47A400922C70C0800612D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C47A400C22C70C0800612D8D /* SockItToMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SockItToMe.xcdatamodel; sourceTree = "<group>"; };
 		C47A400E22C70C0A00612D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C47A401122C70C0A00612D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		C47A402522C70C0B00612D8D /* SockItToMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SockItToMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47A402922C70C0B00612D8D /* SockItToMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SockItToMeUITests.m; sourceTree = "<group>"; };
 		C47A402B22C70C0B00612D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47A403722C70CB900612D8D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C47A403822C70CB900612D8D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C42AF53122F900C200B4B4C0 /* Foot */ = {
+			isa = PBXGroup;
+			children = (
+				C42AF53222F900F900B4B4C0 /* Foot.h */,
+				C42AF53322F900F900B4B4C0 /* Foot.m */,
+			);
+			path = Foot;
+			sourceTree = "<group>";
+		};
+		C42AF53522F9020400B4B4C0 /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				C42AF53622F9021800B4B4C0 /* Pattern.h */,
+				C42AF53722F9021800B4B4C0 /* Pattern.m */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
 		C47A3FF622C70C0800612D8D = {
 			isa = PBXGroup;
 			children = (
+				C42AF53522F9020400B4B4C0 /* Pattern */,
+				C42AF53122F900C200B4B4C0 /* Foot */,
 				C47A400122C70C0800612D8D /* SockItToMe */,
 				C47A401D22C70C0B00612D8D /* SockItToMeTests */,
 				C47A402822C70C0B00612D8D /* SockItToMeUITests */,
@@ -105,9 +129,8 @@
 			children = (
 				C47A400222C70C0800612D8D /* AppDelegate.h */,
 				C47A400322C70C0800612D8D /* AppDelegate.m */,
-				C47A400522C70C0800612D8D /* ViewController.h */,
-				C47A400622C70C0800612D8D /* ViewController.m */,
-				C47A400822C70C0800612D8D /* Main.storyboard */,
+				C47A403722C70CB900612D8D /* MainViewController.h */,
+				C47A403822C70CB900612D8D /* MainViewController.m */,
 				C47A400E22C70C0A00612D8D /* Assets.xcassets */,
 				C47A401022C70C0A00612D8D /* LaunchScreen.storyboard */,
 				C47A401322C70C0A00612D8D /* Info.plist */,
@@ -240,7 +263,6 @@
 			files = (
 				C47A401222C70C0A00612D8D /* LaunchScreen.storyboard in Resources */,
 				C47A400F22C70C0A00612D8D /* Assets.xcassets in Resources */,
-				C47A400A22C70C0800612D8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42AF53822F9021800B4B4C0 /* Pattern.m in Sources */,
+				C42AF53422F900FA00B4B4C0 /* Foot.m in Sources */,
 				C47A400D22C70C0800612D8D /* SockItToMe.xcdatamodeld in Sources */,
-				C47A400722C70C0800612D8D /* ViewController.m in Sources */,
 				C47A401522C70C0A00612D8D /* main.m in Sources */,
 				C47A400422C70C0800612D8D /* AppDelegate.m in Sources */,
+				C47A403922C70CB900612D8D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C47A400822C70C0800612D8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C47A400922C70C0800612D8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C47A401022C70C0A00612D8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
